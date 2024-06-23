@@ -1,3 +1,3 @@
- floating embeded GPT based on <a href="Poe.com">Poe</a>
+ floating embeded GPT based on <a href="https://Poe.com">Poe</a>
 
 only the name
