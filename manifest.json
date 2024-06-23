@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "float embeded GPT",
+    "version": "3.0",
+    "description": "Base on Poe.com",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      },
+    
+    "content_scripts": [
+        {
+          "js": ["main2.js"],
+          "matches": ["https://*/*"],
+          "exclude_matches": ["*://www.google.com/search*"]
+        }
+    ]
+}
